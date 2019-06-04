@@ -6,6 +6,15 @@ const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '\..\config\config.json')[env];
+const sql = require('mssqlserver');
+async () => {
+    try {
+        await sql.connect(config)
+    } catch (err) {
+        console.log("hellooooooo", err);
+    }
+}
+
 const db = {};
 
 let sequelize;

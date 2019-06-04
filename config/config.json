@@ -1,23 +1,11 @@
 {
   "development": {
-    "username": "IN-BR-028\IN-BR-028",
-    "password": null,
+    "username": "sa",
+    "password": "1234",
     "database": "BaseFilm",
     "host": "127.0.0.1",
-    "dialect": "mmsql"
-  },
-  "test": {
-    "username": "IN-BR-028\IN-BR-028",
-    "password": null,
-    "database": "BaseFilm",
-    "host": "127.0.0.1",
-    "dialect": "mmsql"
-  },
-  "production": {
-    "username": "IN-BR-028\IN-BR-028",
-    "password": null,
-    "database": "BaseFilm",
-    "host": "127.0.0.1",
-    "dialect": "mmsql"
+    "dialect": "mssql",
+    "dialectOptions": {
+        "instanceName": "SQLEXPRESS"}
   }
 }
