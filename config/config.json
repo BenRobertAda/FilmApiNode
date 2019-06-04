@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
+    "username": "IN-BR-028\IN-BR-028",
     "password": null,
-    "database": "database_development",
+    "database": "BaseFilm",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mmsql"
   },
   "test": {
-    "username": "root",
+    "username": "IN-BR-028\IN-BR-028",
     "password": null,
-    "database": "database_test",
+    "database": "BaseFilm",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mmsql"
   },
   "production": {
-    "username": "root",
+    "username": "IN-BR-028\IN-BR-028",
     "password": null,
-    "database": "database_production",
+    "database": "BaseFilm",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mmsql"
   }
 }
